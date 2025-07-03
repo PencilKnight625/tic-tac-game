@@ -22,3 +22,7 @@ It includes input validation, win/draw detection, and a clean text-based interfa
  4 | X | 6
 ---|---|---
  7 | 8 | O
+
+ 
+ ```bash
+g++ tic_tac.cpp -o tic_tac
