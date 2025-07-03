@@ -3,7 +3,7 @@ using namespace std;
 
 char board[3][3];
 
-// Initialize the game board with numbers 1-9
+// Start the game board with numbers 1-9
 void initializeBoard() 
 {
 	char start = '1';
@@ -39,7 +39,7 @@ char check_win()
 		if (board[0][i] == board[1][i] && board[1][i] == board[2][i])
 			return board[0][i];
 	}
-	// Diagonals
+	// For Diagonals
 	if (board[0][0] == board[1][1] && board[1][1] == board[2][2])
 		return board[0][0];
 	if (board[0][2] == board[1][1] && board[1][1] == board[2][0])
@@ -58,7 +58,7 @@ bool is_draw()
 	return true;
 }
 
-// Main game loop
+// Main game
 int main() 
 {
 	initializeBoard();
