@@ -14,4 +14,11 @@ It includes input validation, win/draw detection, and a clean text-based interfa
 
 ## How to Run
 
+## DEMO
+
 ### Compile
+ X | O | 3
+---|---|---
+ 4 | X | 6
+---|---|---
+ 7 | 8 | O
